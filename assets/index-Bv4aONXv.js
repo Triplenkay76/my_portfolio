@@ -166,7 +166,8 @@ Error generating stack: `+i.message+`
           }
           .mobile-menu .nav-link { font-size: 18px; }
           .hero-inner { grid-template-columns: 1fr !important; }
-          .hero-image-wrap { display: none !important; }
+          .hero-image-wrap { order: -1; }
+          .hero-image-wrap > div { max-width: 180px !important; margin: 0 auto; }
           .about-grid { grid-template-columns: 1fr !important; gap: 48px !important; }
           .projects-grid { grid-template-columns: 1fr !important; }
           .contact-grid { grid-template-columns: 1fr !important; }
